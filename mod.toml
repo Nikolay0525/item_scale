@@ -1,0 +1,10 @@
+id = "item_scale"
+name = "Item Scale"
+version = "1.0.0"
+kyubu = "^1.1"
+sides = ["client"]
+authors = ["SirLefti (original), ported"]
+description = "Draws UI item models at a constant size on every resolution."
+
+[native]
+client = "bin/item_scale.dll"

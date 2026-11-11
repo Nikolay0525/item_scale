@@ -1,0 +1,7 @@
+# Options players can change in kyubu/config/item_scale.toml (docs/config.md).
+[options.scale]
+type = "float"
+default = 0.87
+min = 0.2
+max = 2.0
+description = "Size of item models in the UI at a 1080p screen (1.0 = vanilla size; smaller on higher resolutions is compensated)."
