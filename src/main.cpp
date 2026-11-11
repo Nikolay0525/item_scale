@@ -5,7 +5,7 @@
 // The scale is multiplied by SCALE * REF_HEIGHT / window height, so items keep a constant size relative to the UI on
 // any resolution. The original replayed the prologue by hand in a naked stub; here it is an ordinary function hook.
 // The scale (0.87 by default) is an option: kyubu\config\item_scale.toml.
-#include "../../common.hpp"
+#include "../common.hpp"
 
 namespace {
 using DrawFn = void(__fastcall*)(void* renderer, void* edx, float x, float y, void* ctx, float scale, void* item, float z);
